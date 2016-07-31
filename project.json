@@ -4,9 +4,10 @@
 		"preserveCompilationContext": true
 	},
 	"dependencies": {
-		"Microsoft.AspNetCore.Hosting": "*",
 		"Microsoft.AspNetCore.Mvc": "*",
 		"Microsoft.AspNetCore.Mvc.Core": "*",
+		"Microsoft.AspNetCore.Hosting": "*",
+		"Microsoft.AspNetCore.StaticFiles": "*",
 		"Microsoft.AspNetCore.Server.Kestrel": "*"
 	},
 	"frameworks": {
