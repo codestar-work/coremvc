@@ -18,8 +18,8 @@ public class Program {
 }
 
 class Startup {
-	public void ConfigureServices(IServiceCollection services) {
-		services.AddMvc();
+	public void ConfigureServices(IServiceCollection service) {
+		service.AddMvc();
 	}
 
 	public void Configure(IApplicationBuilder app) {
