@@ -7,6 +7,7 @@
 		"Microsoft.AspNetCore.Mvc": "*",
 		"Microsoft.AspNetCore.Mvc.Core": "*",
 		"Microsoft.AspNetCore.Hosting": "*",
+		"Microsoft.AspNetCore.Session": "*",
 		"Microsoft.AspNetCore.StaticFiles": "*",
 		"Microsoft.AspNetCore.Server.Kestrel": "*"
 	},

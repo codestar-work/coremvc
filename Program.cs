@@ -19,10 +19,12 @@ public class Program {
 
 class Startup {
 	public void ConfigureServices(IServiceCollection service) {
+		service.AddSession();
 		service.AddMvc();
 	}
 
 	public void Configure(IApplicationBuilder app) {
+		app.UseSession();
 		app.UseStaticFiles();
 		app.UseMvcWithDefaultRoute();
 	}
